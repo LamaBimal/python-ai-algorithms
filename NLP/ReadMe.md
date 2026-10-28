@@ -1,23 +1,3 @@
-### Natural Language procesing
-
-Here, Large data file has been uploaded with Git-lfs (https://git-lfs.com/)
-
-Install the  plugin as mentioned in above  page.
-```
-git lfs install
-```
-
-Commands to add file in git-lfs:
-```
-git lfs track "data.csv" // tracking file in lfs and .gitattributes file will be created.
-
-git add .gitattributes // adding attributes file in git.
-
-git lfs migrate import (command to import file in large file system)
-
-git add data.csv
-git commit -m "Add large file"
-git push origin main
-
-```
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc138cc4ae59a6bce2d76b1cddba776bebf235c9543587c74254287a8f246a09
+size 1926
