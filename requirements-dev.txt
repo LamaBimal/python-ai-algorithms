@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b20b68d0e9313e7ba3534edf6428184241a5340fc1dfb069d1a980d94318ca9b
-size 75
+-r requirements.txt
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8

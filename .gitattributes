@@ -1,6 +1,9 @@
-*.ipynb filter=lfs diff=lfs merge=lfs -text
-/LICENSE filter=lfs diff=lfs merge=lfs -text
+# Keep large datasets and notebook artifacts in Git LFS.
 *.csv filter=lfs diff=lfs merge=lfs -text
-*.txt filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
-*.py filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+
+# Documentation, source, configuration, and license files use ordinary Git text.
+*.md text=auto
+*.py text=auto
+*.txt text=auto
+/LICENSE text=auto
