@@ -5,6 +5,15 @@ clustering, dimensionality reduction, and Nepali natural language processing.
 The repository includes executable notebooks, reusable Python demos, datasets,
 and regression tests.
 
+## Interactive HTML reference
+
+Browse [the live Algorithm Atlas](https://lamabimal.github.io/python-ai-algorithms/algorithms.html),
+or open [the HTML file](docs/algorithms.html) locally in a browser for a searchable,
+self-contained reference to 20 project algorithms and methods. It includes
+formulas, computational costs, assumptions, implementation links, step-by-step
+search diagrams, an interactive gradient-descent experiment, PCA geometry, and
+an evaluation pipeline. No server or internet connection is required.
+
 ## Start learning
 
 Follow the [learning path](docs/learning-path.md) for prerequisites, a recommended
