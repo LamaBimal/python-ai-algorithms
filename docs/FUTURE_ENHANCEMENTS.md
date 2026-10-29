@@ -2,19 +2,24 @@
 
 This roadmap proposes the next stages for Python AI Algorithms. Version labels
 express an intended sequence, not release dates or committed delivery promises.
-Items below are planned ideas; they are not existing features.
+The foundation learning priorities now have an initial implementation:
+[learning path](learning-path.md), seven structured lessons, three
+[executable walkthroughs](../Learning/README.md), NumPy regression/KNN/K-means,
+and training-only evaluation experiments. These provide a starting point;
+extending the same lesson structure to every legacy notebook remains future work.
+Unchecked items below describe further work rather than existing features.
 
 ## v1.1: Learning experience
 
 Recommended next release: help learners understand and navigate the examples
 before expanding the algorithm collection.
 
-- [ ] Add a learning path with prerequisites and suggested notebook order.
+- [x] Add a learning path with prerequisites and suggested notebook order.
 - [ ] Give each notebook consistent learning objectives, explanations,
   exercises, and expected outputs.
-- [ ] Visualize BFS, DFS, uniform-cost search, greedy best-first search, and A*
+- [x] Visualize BFS, DFS, uniform-cost search, greedy best-first search, and A*
   step by step, showing the frontier, visited nodes, path, and accumulated cost.
-- [ ] Add troubleshooting for virtual environments, Jupyter kernels, missing
+- [x] Add troubleshooting for virtual environments, Jupyter kernels, missing
   dependencies, and Git LFS pointer files.
 
 Completion target: a new learner can set up the repository, follow a documented
@@ -24,11 +29,11 @@ path, and explain how the search algorithms choose their next node.
 
 Strengthen evaluation before adding more models.
 
-- [ ] Add cross-validation and parameter tuning within the training partition,
+- [x] Add cross-validation and parameter tuning within the training partition,
   keeping the final test set untouched.
 - [ ] Compare algorithms on shared datasets and splits, reporting predictive
   metrics, fit/prediction time, and relevant complexity trade-offs.
-- [ ] Add learning curves, error analysis, and metrics for imbalanced classes,
+- [x] Add learning curves, error analysis, and metrics for imbalanced classes,
   including per-class precision, recall, F1, and appropriate PR/ROC curves.
 - [ ] Offer a documented real spam dataset alongside the synthetic sample,
   with source, license, retrieval instructions, and duplicate handling.

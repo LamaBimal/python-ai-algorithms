@@ -41,3 +41,13 @@ class labels to fit the model.
 
 All demos use a fixed random seed and return fitted estimators and arrays, so
 you can inspect results or call `model.predict` / `model.transform` on new data.
+
+## Learn the mechanics
+
+Start with the [learning path](../docs/learning-path.md). The
+[from-scratch notebook](../Learning/FromScratch.ipynb) implements regression,
+KNN, and K-means in NumPy and compares them with scikit-learn. The
+[visual walkthrough](../Learning/VisualFoundations.ipynb) illustrates decisions
+and updates. The [evaluation lesson](../docs/lessons/evaluation.md) and
+[notebook](../Learning/Evaluation.ipynb) demonstrate training-only tuning,
+baselines, class imbalance, leakage, learning curves, and error analysis.
