@@ -165,3 +165,7 @@ scheduled release dates.
 - [Foundations of AI](docs/foundations-of-ai.md): intelligence, AI perspectives,
   foundational disciplines, and applications.
 - [History of AI](docs/history-of-ai.md): an introductory timeline.
+
+## Interactive guide foundations
+
+The guide now includes Big O time/space foundations, counted growth examples, and a knowledge check. Read [the text companion](docs/BIG_O.md). Browser models and controls live in `docs/assets/`; keep that folder beside the HTML for offline use.
